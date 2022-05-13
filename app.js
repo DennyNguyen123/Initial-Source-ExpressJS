@@ -5,7 +5,7 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 const liveReload = require("livereload")
 const connectLivereload = require("connect-livereload")
-const route = require(".\\routes\\index")
+const route = require("./routes/index")
 
 
 
